@@ -1,10 +1,8 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector:'nav-bar',
-  templateUrl:'./navbar.component.html'
+  selector: 'nav-bar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.scss'],
 })
-
-export class NavBarComponent{
-
-}
+export class NavBarComponent {}

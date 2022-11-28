@@ -1,0 +1,52 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: white;
+}
+
+form {
+  background-color: #fff;
+  width: 300px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchicon {
+  padding-right: 10px;
+}
+input {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+::placeholder {
+  opacity: 0.7;
+}
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.rightnav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.navicons {
+  padding-left: 10px;
+}

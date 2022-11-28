@@ -6,20 +6,18 @@ import { AppComponent } from './app.component';
 import { LogAppComponent } from './login/login-app.component';
 import { NavBarComponent } from './nav/navbar.component';
 import { RegAppComponent } from './register/reg-app.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegAppComponent,
     NavBarComponent,
-    LogAppComponent
+    LogAppComponent,
+    HomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
